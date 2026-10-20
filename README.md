@@ -43,6 +43,12 @@ python -m src.ask "How many depository libraries did GPO staff visit in FY 2018?
 python -m src.ask
 ```
 
+Or open the web UI (chat with sample questions, page citations, and the retrieved passages) at http://localhost:8501:
+
+```bash
+streamlit run app.py
+```
+
 Run the acceptance-question evaluation:
 
 ```bash
